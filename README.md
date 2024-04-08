@@ -1,5 +1,3 @@
-Sure, I'll provide a more detailed `README.md` with specific commands for installing Git and Python on different operating systems, along with the previous instructions.
-
 ---
 
 # Python Web Application Deployment Guide
@@ -19,10 +17,6 @@ Before starting, ensure you have administrative or root access to perform instal
 
 ### macOS
 
-- The easiest way to install Git on macOS is through the stand-alone installer:
-  - Download the latest macOS Git installer from [Git's official site](https://git-scm.com/download/mac).
-  - Follow the installation prompts.
-- Alternatively, you can use Homebrew by running:
   ```bash
   brew install git
   ```
