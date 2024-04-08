@@ -67,8 +67,8 @@ Before starting, ensure you have administrative or root access to perform instal
 Clone the application repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/HILL-TOPCONSULTANCY/WelcomeApp.git
+cd WelcomeApp
 ```
 
 ## Steps 4 to 6: Create a Virtual Environment, Install Dependencies, and Run the Application
@@ -81,7 +81,7 @@ Open your web browser and go to `http://localhost:5000` to view your application
 
 ---
 
-Ensure you replace `your-username` and `your-repository-name` with your actual GitHub username and repository name. This guide provides a starting point. Depending on your specific application requirements, additional configuration or dependencies may be necessary.
+This guide provides a starting point. Depending on your specific application requirements, additional configuration or dependencies may be necessary.
 ---
 
 # Application Deployment Guide
@@ -101,8 +101,8 @@ This guide outlines the steps required to clone, build, and deploy the web appli
 Clone the application repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/HILL-TOPCONSULTANCY/WelcomeApp.git
+cd WelcomeApp
 ```
 
 ## Step 2: Set Up Your EC2 Instance
@@ -180,4 +180,4 @@ http://your-ec2-public-ip-address
 
 ---
 
-Replace placeholders like `your-username`, `your-repository`, `your-application-name`, and `your-dockerhub-username` with actual values specific to your project and Docker Hub account. This guide assumes you are using Docker Hub as your container registry, but you can adjust the instructions for any other registry you might be using.
+Replace placeholder `your-dockerhub-username` with actual values specific to your project and Docker Hub account. This guide assumes you are using Docker Hub as your container registry, but you can adjust the instructions for any other registry you might be using.
