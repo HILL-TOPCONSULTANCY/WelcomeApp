@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    environment {
+        DOCKER_IMAGE = 'your-docker-repo/your-app-name:latest'
+    }
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    docker.build(env.DOCKER_IMAGE)
+                }
+            }
+        }
+        stage('Push') {
+            steps {
+                script {
+                    docker.withRegistry('https://your-docker-registry', 'docker-credentials-id') {
+                        docker.image(env.DOCKER_IMAGE).push()
+                    }
+                }
+            }
+        }
+        // Add more stages for deployment if necessary
+    }
+}
