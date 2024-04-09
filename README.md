@@ -112,7 +112,7 @@ cd WelcomeApp
 3. Connect to your instance via SSH:
 
 ```bash
-ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip-address
+ssh -i your-key.pem ubuntu@your-ec2-public-ip-address
 ```
 
 ## Step 3: Install Docker on EC2
